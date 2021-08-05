@@ -10,5 +10,7 @@ Project Pre-requisites
 5. Spring MVC Project -
 
 Spring MVC Project creation-
-1. XML Configuration.
+1. XML Configuration - configuring XML File.
 2. Java based Configuration.
+    a. Approach I - Developer has control over the dispatcher servlet object ( implementing WebApplicationInitializer )
+    b. Approach II - Spring takes control over the dispatcher servlet object  ( extending AbstractAnnotationConfigDispatcherServletInitializer )
